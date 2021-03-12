@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+}
+
+/* ------------------------------- organizzazione navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+nav ul a {
+  text-decoration: none;
+  color: gray;
+  padding: 15px;
+}
+
+/* ------------------------------- colori menu destra */
+.personale {
+  color: black;
+}
+.hover:hover {
+  color: black;
+}
+
+/* ------------------------------- bottoni */
+[class^="button-"] {
+  padding: 7px 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.button-scuro {
+  background-color: black;
+}
+.button-scuro a {
+  color: white;
+}
+.button-scuro:hover {
+  background-color: gray;
+}
+
+.button-chiaro {
+  background-color: lightgrey;
+}
+.button-chiaro a {
+  color: black;
+}
+.button-chiaro:hover {
+  background-color: gray;
+}
+
+/* ------------------------------- menu a comparsa */
+header section div {
+  display: flex;
+  /* justify-content: space-between; */
+}
+header section div ul {
+  list-style: none;
+  /* display: flex; */
+  padding: 15px;
+  /* align-items: center; */
+}
+header section div ul li {
+  color: gray;
+}
+header section div ul a {
+  text-decoration: none;
+  color: gray;
+  /* padding: 15px; */
+}
+header section a:hover {
+  color: black;
+}
+header section i {
+  color: white;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 50%;
+}
+.minititle {
+  color: lightgrey;
+}
+
+/* ------------------------------- richiami js */
+.target {
+  display: none;
+}
+
+.active {
+  display: block;
+}
